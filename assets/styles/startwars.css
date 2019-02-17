@@ -1,0 +1,23 @@
+.logo{
+    height: 40px;
+}
+.characters{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.yourCharacter{
+    border: 2px solid green;
+}
+.enemyCharacter{
+    border: 2px solid red;
+}
+.cursor-not-allowed
+{
+    cursor: not-allowed !important;
+}
+.cursor-crosshair{
+    cursor: crosshair;
+}
+#userMessage{
+    font-size: 1.6rem;
+}
