@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-center" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
+          <!--<ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Wins:<span id="winsValue"> 0</span><span class="sr-only"></span></a>
             </li>
@@ -32,7 +32,7 @@
               <a class="nav-link" href="#">Losess:<span id="losessValue"> 0</span> </a>
             </li>
             
-          </ul>
+          </ul>-->
           
         </div>
       </nav>
@@ -64,19 +64,13 @@
         </div>
         <div class="col-8"><p id="userMessage" class="text-center align-middle text-warning p-5">Select your Character!</p></div>
         <div id="enemyField" class="col-2">
-          <div id="darth">
-            <div class="row">  
-              <img id="darth" class="imgCharacter enemyCharacter img-fluid rounded-circle float-right" alt="Darth Maul" src="assets/images/darth.jpg"/>
-            </div>
-            <div class="row">
-              <div id="fittingScore" class="tooltip-inner float-right">Power 180</div>
-            </div>
-          </div><!-- end of darth -->
+          
+        </div><!-- end of enemy -->
         </div>
       </div>
       <div class="row">
-        <div class="col text-center">
-          <button class="btn btn-warning btn-sm">Attact</button>
+        <div id="btnId" class="col text-center">
+          <button id="btnAttack" class="btn btn-warning btn-sm disabled">AttacK disabled! Select the characters!</button>
         </div>
       </div>
     </main>
